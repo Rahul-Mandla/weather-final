@@ -1,0 +1,25 @@
+
+.container{
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+}
+
+.main_box{
+  display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, .6);
+    padding:20px;
+    border-radius: 24px;
+    color: #fff;
+  }
+  .temp_minmax{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+.weather-tip{
+  justify-content: right;
+    text-transform: capitalize;
+    font-family: 'Alata', sans-serif;;
+}

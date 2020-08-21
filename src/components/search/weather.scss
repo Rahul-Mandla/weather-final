@@ -1,0 +1,73 @@
+/* .container{ */
+    /* background-image: url("../../assets/cloudy.jpg"); */
+    /* background-size: cover; */
+    /* height:90vh; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* color:#fff; */
+/* } */
+/* .wrapper{
+    background-image: url("../../assets/cloudy.jpg");
+
+} */
+.bg-wrapper{
+  background-size: cover;
+
+}
+.main_box{
+  // display: none; 
+  // display: flex;
+  text-align: center;
+    height: auto;
+    background-color: rgba(0, 0, 0, .6);
+    padding:20px;
+    // margin:8px;
+    border-radius: 24px;
+    color: #fff;
+    margin:20px;
+      justify-content: center;
+  }
+  .main_temp{
+    text-transform: capitalize;
+  }
+  .temp_minmax{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+.weather-tip{
+    text-transform: capitalize;
+    font-family: 'Alata', sans-serif;;
+}
+  // @media screen and (min-width:768px){
+  //   .bg-wrapper{
+  //     /* background-color: rgba(255, 255, 255, .5); */
+  //     width: 50%;
+  //     margin: auto;
+
+  //   }
+  //   .location{
+  //     display: flex;
+  //     // flex-direction: column;
+  //     justify-content: left;
+  //     text-align: left;
+  //     justify-content: space-between;
+  //     // margin:1rem 2rem;
+  //   }
+  //   .weather-tip{
+  //     text-align: right;
+  //   }
+  //   .main_box{
+  //     /* display: flex;
+  //     flex-direction: column;
+  //     justify-content: space-around; */
+  //     /* margin: 0 2rem; */
+  //     position: relative;
+  //     .main_temp{
+  //       text-align: center;
+  //     }
+  //   }
+  //   .temp_minmax{
+  //     text-align: center;
+  //   }
+  // }
